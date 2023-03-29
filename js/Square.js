@@ -1,0 +1,10 @@
+"use strict";
+
+import Figure from "./Figure.js";
+import Rectangle from "./Rectangle.js";
+
+export default class Square extends Rectangle {
+	constructor(name, size) {
+		super(name, size, size);
+	}
+}
